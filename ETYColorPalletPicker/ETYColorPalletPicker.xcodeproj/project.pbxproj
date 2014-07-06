@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3707A26D1965FE13009A1696 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A26C1965FE13009A1696 /* main.m */; };
+		3707A2701965FE13009A1696 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A26F1965FE13009A1696 /* AppDelegate.m */; };
+		3707A2731965FE13009A1696 /* ETYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2721965FE13009A1696 /* ETYRootViewController.m */; };
+		3707A2761965FE13009A1696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3707A2741965FE13009A1696 /* Main.storyboard */; };
+		3707A2781965FE13009A1696 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3707A2771965FE13009A1696 /* Images.xcassets */; };
+		3707A2841965FE13009A1696 /* ETYColorPalletPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2831965FE13009A1696 /* ETYColorPalletPickerTests.m */; };
+		3707A2911965FEB8009A1696 /* ETYColorPallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2901965FEB8009A1696 /* ETYColorPallet.m */; };
+		3707A2921965FEB8009A1696 /* ETYColorPallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2901965FEB8009A1696 /* ETYColorPallet.m */; };
+		3707A2961965FF55009A1696 /* ETYColorPalletStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2951965FF55009A1696 /* ETYColorPalletStore.m */; };
+		3707A2971965FF55009A1696 /* ETYColorPalletStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2951965FF55009A1696 /* ETYColorPalletStore.m */; };
+		3707A29A196607D2009A1696 /* ETYColorPalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A299196607D2009A1696 /* ETYColorPalletViewController.m */; };
+		3707A29B196607D2009A1696 /* ETYColorPalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A299196607D2009A1696 /* ETYColorPalletViewController.m */; };
+		3707A2C81967D2FC009A1696 /* ETYColorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2C71967D2FC009A1696 /* ETYColorCollectionViewCell.m */; };
+		3707A2C91967D2FC009A1696 /* ETYColorCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2C71967D2FC009A1696 /* ETYColorCollectionViewCell.m */; };
+		3707A2CC1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2CB1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m */; };
+		3707A2CD1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3707A2CB1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m */; };
+		37A5100E1967EF0C00DF7125 /* ETYColorPalletFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A5100D1967EF0C00DF7125 /* ETYColorPalletFlowLayout.m */; };
+		37BED1AF196914FF00F32645 /* Old Paper@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37BED1AE196914FF00F32645 /* Old Paper@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3707A27E1965FE13009A1696 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3707A25F1965FE12009A1696 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3707A2661965FE12009A1696;
+			remoteInfo = ETYColorPalletPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3707A2671965FE12009A1696 /* ETYColorPalletPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETYColorPalletPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3707A26B1965FE13009A1696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3707A26C1965FE13009A1696 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3707A26E1965FE13009A1696 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3707A26F1965FE13009A1696 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3707A2711965FE13009A1696 /* ETYRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETYRootViewController.h; sourceTree = "<group>"; };
+		3707A2721965FE13009A1696 /* ETYRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETYRootViewController.m; sourceTree = "<group>"; };
+		3707A2751965FE13009A1696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3707A2771965FE13009A1696 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3707A27D1965FE13009A1696 /* ETYColorPalletPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETYColorPalletPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3707A2821965FE13009A1696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3707A2831965FE13009A1696 /* ETYColorPalletPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETYColorPalletPickerTests.m; sourceTree = "<group>"; };
+		3707A28F1965FEB8009A1696 /* ETYColorPallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETYColorPallet.h; sourceTree = "<group>"; };
+		3707A2901965FEB8009A1696 /* ETYColorPallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETYColorPallet.m; sourceTree = "<group>"; };
+		3707A2941965FF55009A1696 /* ETYColorPalletStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETYColorPalletStore.h; sourceTree = "<group>"; };
+		3707A2951965FF55009A1696 /* ETYColorPalletStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETYColorPalletStore.m; sourceTree = "<group>"; };
+		3707A298196607D2009A1696 /* ETYColorPalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETYColorPalletViewController.h; sourceTree = "<group>"; };
+		3707A299196607D2009A1696 /* ETYColorPalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETYColorPalletViewController.m; sourceTree = "<group>"; };
+		3707A2C61967D2FC009A1696 /* ETYColorCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETYColorCollectionViewCell.h; sourceTree = "<group>"; };
+		3707A2C71967D2FC009A1696 /* ETYColorCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETYColorCollectionViewCell.m; sourceTree = "<group>"; };
+		3707A2CA1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETYPalletHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		3707A2CB1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETYPalletHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		37A5100C1967EF0C00DF7125 /* ETYColorPalletFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETYColorPalletFlowLayout.h; sourceTree = "<group>"; };
+		37A5100D1967EF0C00DF7125 /* ETYColorPalletFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETYColorPalletFlowLayout.m; sourceTree = "<group>"; };
+		37BED1AE196914FF00F32645 /* Old Paper@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old Paper@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3707A2641965FE12009A1696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3707A27A1965FE13009A1696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3707A25E1965FE12009A1696 = {
+			isa = PBXGroup;
+			children = (
+				3707A2691965FE12009A1696 /* ETYColorPalletPicker */,
+				3707A2801965FE13009A1696 /* ETYColorPalletPickerTests */,
+				3707A2681965FE12009A1696 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3707A2681965FE12009A1696 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3707A2671965FE12009A1696 /* ETYColorPalletPicker.app */,
+				3707A27D1965FE13009A1696 /* ETYColorPalletPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3707A2691965FE12009A1696 /* ETYColorPalletPicker */ = {
+			isa = PBXGroup;
+			children = (
+				3707A2931965FF29009A1696 /* Store */,
+				3707A28E1965FE85009A1696 /* Model */,
+				3707A2C51967D295009A1696 /* View */,
+				3707A28D1965FE31009A1696 /* Controllers */,
+				3707A26E1965FE13009A1696 /* AppDelegate.h */,
+				3707A26F1965FE13009A1696 /* AppDelegate.m */,
+				37BED1AD196914D200F32645 /* Resources */,
+				3707A26A1965FE13009A1696 /* Supporting Files */,
+			);
+			path = ETYColorPalletPicker;
+			sourceTree = "<group>";
+		};
+		3707A26A1965FE13009A1696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3707A26B1965FE13009A1696 /* Info.plist */,
+				3707A26C1965FE13009A1696 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3707A2801965FE13009A1696 /* ETYColorPalletPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3707A2831965FE13009A1696 /* ETYColorPalletPickerTests.m */,
+				3707A2811965FE13009A1696 /* Supporting Files */,
+			);
+			path = ETYColorPalletPickerTests;
+			sourceTree = "<group>";
+		};
+		3707A2811965FE13009A1696 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3707A2821965FE13009A1696 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3707A28D1965FE31009A1696 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37A5100B1967EEB500DF7125 /* LayoutManager */,
+				3707A2711965FE13009A1696 /* ETYRootViewController.h */,
+				3707A2721965FE13009A1696 /* ETYRootViewController.m */,
+				3707A298196607D2009A1696 /* ETYColorPalletViewController.h */,
+				3707A299196607D2009A1696 /* ETYColorPalletViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3707A28E1965FE85009A1696 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3707A28F1965FEB8009A1696 /* ETYColorPallet.h */,
+				3707A2901965FEB8009A1696 /* ETYColorPallet.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3707A2931965FF29009A1696 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				3707A2941965FF55009A1696 /* ETYColorPalletStore.h */,
+				3707A2951965FF55009A1696 /* ETYColorPalletStore.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		3707A2C51967D295009A1696 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3707A2C61967D2FC009A1696 /* ETYColorCollectionViewCell.h */,
+				3707A2C71967D2FC009A1696 /* ETYColorCollectionViewCell.m */,
+				3707A2CA1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.h */,
+				3707A2CB1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		37A5100B1967EEB500DF7125 /* LayoutManager */ = {
+			isa = PBXGroup;
+			children = (
+				37A5100C1967EF0C00DF7125 /* ETYColorPalletFlowLayout.h */,
+				37A5100D1967EF0C00DF7125 /* ETYColorPalletFlowLayout.m */,
+			);
+			name = LayoutManager;
+			sourceTree = "<group>";
+		};
+		37BED1AD196914D200F32645 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37BED1AE196914FF00F32645 /* Old Paper@2x.jpg */,
+				3707A2741965FE13009A1696 /* Main.storyboard */,
+				3707A2771965FE13009A1696 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3707A2661965FE12009A1696 /* ETYColorPalletPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3707A2871965FE13009A1696 /* Build configuration list for PBXNativeTarget "ETYColorPalletPicker" */;
+			buildPhases = (
+				3707A2631965FE12009A1696 /* Sources */,
+				3707A2641965FE12009A1696 /* Frameworks */,
+				3707A2651965FE12009A1696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ETYColorPalletPicker;
+			productName = ETYColorPalletPicker;
+			productReference = 3707A2671965FE12009A1696 /* ETYColorPalletPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3707A27C1965FE13009A1696 /* ETYColorPalletPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3707A28A1965FE13009A1696 /* Build configuration list for PBXNativeTarget "ETYColorPalletPickerTests" */;
+			buildPhases = (
+				3707A2791965FE13009A1696 /* Sources */,
+				3707A27A1965FE13009A1696 /* Frameworks */,
+				3707A27B1965FE13009A1696 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3707A27F1965FE13009A1696 /* PBXTargetDependency */,
+			);
+			name = ETYColorPalletPickerTests;
+			productName = ETYColorPalletPickerTests;
+			productReference = 3707A27D1965FE13009A1696 /* ETYColorPalletPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3707A25F1965FE12009A1696 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "George Webster";
+				TargetAttributes = {
+					3707A2661965FE12009A1696 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3707A27C1965FE13009A1696 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3707A2661965FE12009A1696;
+					};
+				};
+			};
+			buildConfigurationList = 3707A2621965FE12009A1696 /* Build configuration list for PBXProject "ETYColorPalletPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3707A25E1965FE12009A1696;
+			productRefGroup = 3707A2681965FE12009A1696 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3707A2661965FE12009A1696 /* ETYColorPalletPicker */,
+				3707A27C1965FE13009A1696 /* ETYColorPalletPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3707A2651965FE12009A1696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3707A2761965FE13009A1696 /* Main.storyboard in Resources */,
+				37BED1AF196914FF00F32645 /* Old Paper@2x.jpg in Resources */,
+				3707A2781965FE13009A1696 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3707A27B1965FE13009A1696 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3707A2631965FE12009A1696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3707A2731965FE13009A1696 /* ETYRootViewController.m in Sources */,
+				3707A2CC1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m in Sources */,
+				3707A2C81967D2FC009A1696 /* ETYColorCollectionViewCell.m in Sources */,
+				3707A2701965FE13009A1696 /* AppDelegate.m in Sources */,
+				37A5100E1967EF0C00DF7125 /* ETYColorPalletFlowLayout.m in Sources */,
+				3707A2911965FEB8009A1696 /* ETYColorPallet.m in Sources */,
+				3707A29A196607D2009A1696 /* ETYColorPalletViewController.m in Sources */,
+				3707A2961965FF55009A1696 /* ETYColorPalletStore.m in Sources */,
+				3707A26D1965FE13009A1696 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3707A2791965FE13009A1696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3707A2921965FEB8009A1696 /* ETYColorPallet.m in Sources */,
+				3707A2841965FE13009A1696 /* ETYColorPalletPickerTests.m in Sources */,
+				3707A2971965FF55009A1696 /* ETYColorPalletStore.m in Sources */,
+				3707A2CD1967DB19009A1696 /* ETYPalletHeaderCollectionReusableView.m in Sources */,
+				3707A29B196607D2009A1696 /* ETYColorPalletViewController.m in Sources */,
+				3707A2C91967D2FC009A1696 /* ETYColorCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3707A27F1965FE13009A1696 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3707A2661965FE12009A1696 /* ETYColorPalletPicker */;
+			targetProxy = 3707A27E1965FE13009A1696 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3707A2741965FE13009A1696 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3707A2751965FE13009A1696 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3707A2851965FE13009A1696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3707A2861965FE13009A1696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3707A2881965FE13009A1696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ETYColorPalletPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3707A2891965FE13009A1696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ETYColorPalletPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3707A28B1965FE13009A1696 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ETYColorPalletPicker.app/ETYColorPalletPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ETYColorPalletPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3707A28C1965FE13009A1696 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ETYColorPalletPicker.app/ETYColorPalletPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ETYColorPalletPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3707A2621965FE12009A1696 /* Build configuration list for PBXProject "ETYColorPalletPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707A2851965FE13009A1696 /* Debug */,
+				3707A2861965FE13009A1696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3707A2871965FE13009A1696 /* Build configuration list for PBXNativeTarget "ETYColorPalletPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707A2881965FE13009A1696 /* Debug */,
+				3707A2891965FE13009A1696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3707A28A1965FE13009A1696 /* Build configuration list for PBXNativeTarget "ETYColorPalletPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3707A28B1965FE13009A1696 /* Debug */,
+				3707A28C1965FE13009A1696 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3707A25F1965FE12009A1696 /* Project object */;
+}
